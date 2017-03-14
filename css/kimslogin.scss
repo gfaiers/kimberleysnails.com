@@ -1,0 +1,187 @@
+$breakpoint-phone: 640px;
+$breakpoint-tablet: 768px;
+$breakpoint-pc: 1024px;
+$light-font: rgba(255, 253, 208, 1);
+$dark-font: rgba(55, 54, 22, 1);
+$cream-border: rgba(255, 253, 208, 1);
+$dark-border: rgba(185,182,94,1);
+$button-top: rgba(255, 253, 208, 1);
+$button-bottom: rgba(246,244,180,1);
+$button-hover: rgba(165,162,74,1);
+$modal-background: rgba(255, 253, 208, 0.3);
+
+// active
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    cursor: pointer;
+    color: $light-font;
+    background-color: $dark-border;
+}
+
+// on hover for active
+.nav-pills > li.active > a:hover {
+    cursor: pointer;
+    color: $light-font;
+    background-color: $dark-border;
+}
+.nav>li>a, .nav>li>a {
+    cursor: pointer;
+    color: $dark-font;
+    background-color: $cream-border;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    cursor: pointer;
+    color: $light-font;
+    background-color: $dark-border;
+}
+body {
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    color: $dark-font;
+    background-color: $cream-border;
+}
+.logged_out {
+    #amber_login {
+        display: none;
+    }
+    #error_login {
+        display: none;
+    }
+}
+section p {
+    font-weight: 700;
+}
+h1 {
+    margin-top: 0px;
+    font-size: 80px;
+    @media (max-width: $breakpoint-tablet) {
+        font-size: 60px;
+    }
+    @media (max-width: $breakpoint-phone) {
+        font-size: 40px;
+    }
+}
+.upload_images {
+    display: none;
+}
+
+.prices {
+    display: none;
+}
+
+.contact_details {
+    display: none;
+}
+th {
+    text-align: center;
+}
+td {
+}
+.input_text {
+    background-color: $cream-border;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid $dark-border;
+    margin: 2.5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: calc(100% - 30px);
+    font-family: 'Abel', sans-serif;
+}
+
+.textarea {
+    background-color: $cream-border;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid $dark-border;
+    margin: 2.5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: calc(100% - 30px);
+    height: 150px;
+    resize: none;
+    font-family: 'Abel', sans-serif;
+}
+.price_list {
+    text-align: center;
+}
+.prices_table {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.button {
+    background: $cream-border;
+    background: -webkit-linear-gradient($button-top, $button-bottom);
+    background: -o-linear-gradient($button-top, $button-bottom);
+    background: -moz-linear-gradient($button-top, $button-bottom);
+    background: linear-gradient($button-top, $button-bottom);
+    border: $dark-border solid 5px;
+    border-radius: 15px;
+    color: $dark-border;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+.button:active {
+    background: $button-bottom;
+    background: -webkit-linear-gradient($button-bottom, $button-top);
+    background: -o-linear-gradient($button-bottom, $button-top);
+    background: -moz-linear-gradient($button-bottom, $button-top);
+    background: linear-gradient($button-bottom, $button-top);
+}
+
+.button:hover {
+    border: $button-hover solid 5px;
+}
+
+#green_upload, #green_text, #green_prices, #green_contact, #amber_upload, #amber_text, #amber_prices, #amber_contact, #error_upload, #error_contact, #error_prices, #error_text {
+    display: none;
+}
+
+.cover p {
+    text-align: center;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.image_holder {
+    width: 100%;
+    text-align: center;
+}
+
+#img_header_bg, #img_clients_bg, #img_work_done {
+    max-height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 10px;
+	display: block;
+    @media (max-width: $breakpoint-tablet) {
+        max-height: 200px;
+    }
+    @media (max-width: $breakpoint-phone) {
+        max-height: 100px;
+    }
+}
+
+#file_header_bg, #file_clients_bg, #file_work_done {
+    display: none;
+}

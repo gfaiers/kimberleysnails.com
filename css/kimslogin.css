@@ -1,0 +1,187 @@
+/* line 14, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+  cursor: pointer;
+  color: #fffdd0;
+  background-color: #b9b65e; }
+
+/* line 21, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.nav-pills > li.active > a:hover {
+  cursor: pointer;
+  color: #fffdd0;
+  background-color: #b9b65e; }
+
+/* line 26, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.nav > li > a, .nav > li > a {
+  cursor: pointer;
+  color: #373616;
+  background-color: #fffdd0; }
+
+/* line 31, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.nav > li > a:focus, .nav > li > a:hover {
+  cursor: pointer;
+  color: #fffdd0;
+  background-color: #b9b65e; }
+
+/* line 36, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+body {
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  color: #373616;
+  background-color: #fffdd0; }
+
+/* line 43, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.logged_out #amber_login {
+  display: none; }
+
+/* line 46, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.logged_out #error_login {
+  display: none; }
+
+/* line 50, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+section p {
+  font-weight: 700; }
+
+/* line 53, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+h1 {
+  margin-top: 0px;
+  font-size: 80px; }
+  @media (max-width: 768px) {
+    /* line 53, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+    h1 {
+      font-size: 60px; } }
+  @media (max-width: 640px) {
+    /* line 53, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+    h1 {
+      font-size: 40px; } }
+
+/* line 63, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.upload_images {
+  display: none; }
+
+/* line 67, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.prices {
+  display: none; }
+
+/* line 71, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.contact_details {
+  display: none; }
+
+/* line 74, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+th {
+  text-align: center; }
+
+/* line 79, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.input_text {
+  background-color: #fffdd0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #b9b65e;
+  margin: 2.5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: calc(100% - 30px);
+  font-family: 'Abel', sans-serif; }
+
+/* line 92, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.textarea {
+  background-color: #fffdd0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #b9b65e;
+  margin: 2.5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: calc(100% - 30px);
+  height: 150px;
+  resize: none;
+  font-family: 'Abel', sans-serif; }
+
+/* line 106, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.price_list {
+  text-align: center; }
+
+/* line 109, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.prices_table {
+  width: 100%;
+  margin: 10px;
+  padding: 5px; }
+
+/* line 115, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.button {
+  background: #fffdd0;
+  background: -webkit-linear-gradient(#fffdd0, #f6f4b4);
+  background: -o-linear-gradient(#fffdd0, #f6f4b4);
+  background: -moz-linear-gradient(#fffdd0, #f6f4b4);
+  background: linear-gradient(#fffdd0, #f6f4b4);
+  border: #b9b65e solid 5px;
+  border-radius: 15px;
+  color: #b9b65e;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Abel', sans-serif; }
+
+/* line 130, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.button:active {
+  background: #f6f4b4;
+  background: -webkit-linear-gradient(#f6f4b4, #fffdd0);
+  background: -o-linear-gradient(#f6f4b4, #fffdd0);
+  background: -moz-linear-gradient(#f6f4b4, #fffdd0);
+  background: linear-gradient(#f6f4b4, #fffdd0); }
+
+/* line 138, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.button:hover {
+  border: #a5a24a solid 5px; }
+
+/* line 142, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+#green_upload, #green_text, #green_prices, #green_contact, #amber_upload, #amber_text, #amber_prices, #amber_contact, #error_upload, #error_contact, #error_prices, #error_text {
+  display: none; }
+
+/* line 146, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.cover p {
+  text-align: center; }
+
+/* line 150, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+html {
+  position: relative;
+  min-height: 100%; }
+
+/* line 155, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+main {
+  margin-bottom: 100px; }
+
+/* line 159, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+/* line 166, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+.image_holder {
+  width: 100%;
+  text-align: center; }
+
+/* line 171, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+#img_header_bg, #img_clients_bg, #img_work_done {
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block; }
+  @media (max-width: 768px) {
+    /* line 171, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+    #img_header_bg, #img_clients_bg, #img_work_done {
+      max-height: 200px; } }
+  @media (max-width: 640px) {
+    /* line 171, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+    #img_header_bg, #img_clients_bg, #img_work_done {
+      max-height: 100px; } }
+
+/* line 185, C:/Users/Geoff/Desktop/Web Dev/kimberleysnails.com/css/kimslogin.scss */
+#file_header_bg, #file_clients_bg, #file_work_done {
+  display: none; }
+
+/*# sourceMappingURL=kimslogin.css.map */
