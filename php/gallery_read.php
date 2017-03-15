@@ -22,7 +22,7 @@ if ($check2 != 0) {
         $image[$x] = $row_clients['image'];
     }
 }
-for ($y = $x; $y <= 8; $y++) {
+for ($y = $x; $y < 8; $y++) {
     $image[$y] = addslashes("images/default_image.png");
 }
 $json = json_encode($image);
